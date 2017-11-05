@@ -3,6 +3,8 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 div.gallery:hover {
@@ -17,4 +19,15 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+html  {
+  background-image: url("../banderas/fifa.jpg");
+background-repeat: no-repeat;
+color:#fff;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font:600 16px/18px 'Open Sans',sans-serif;
+
 }
