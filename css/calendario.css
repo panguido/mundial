@@ -1,0 +1,48 @@
+/*padre blanco */
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+   
+}
+
+/* hijos azules cumpla propiedades */
+.flex-item {
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 800px;
+    margin: 10px;
+}
+/*tiene los vrs*/
+.sub-container {
+    align-items: center;
+    justify-content: space-around;
+    display: -webkit-flex;
+    display: flex;
+  
+}
+/*los div  banderas y vrs*/
+.banderas-item {
+   align-items: center;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+/*propiedaes de las banderas*/
+#image-bandera{
+   position:relative;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    margin-left: 15px;
+}
+#marcador{
+    width: 150px;
+      
+}
+#versus,#titulo_Cabeseras{
+    margin-top: 5px;
+    text-align: center;
+}
