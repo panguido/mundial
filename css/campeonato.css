@@ -5,7 +5,18 @@
     width: 100%;
    
 }
+html  {
 
+  background-image: url("../banderas/descarga.jpg");
+background-repeat: no-repeat;
+color:#fff;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font:600 16px/18px 'Open Sans',sans-serif;
+
+}
 /* hijos azules cumpla propiedades */
 .flex-item {
     background-color: cornflowerblue;
